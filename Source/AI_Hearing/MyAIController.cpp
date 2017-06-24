@@ -19,8 +19,6 @@ void AMyAIController::Possess(APawn* InPawn)
 	AMyAICharacter* Char = Cast<AMyAICharacter>(InPawn);
 	if (Char && Char->BehaviorTree->BlackboardAsset)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("AMyAIController::Possess AMyAICharacter"));
-
 		BlackboardComp->InitializeBlackboard(*Char->BehaviorTree->BlackboardAsset);
 
 		BehaviorTreeComp->StartTree(*Char->BehaviorTree);
@@ -31,7 +29,6 @@ void AMyAIController::SetSensedTarget(APawn* NewTarget)
 {
 	if (BlackboardComp)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("AMyAIController::SetSensedTarget BlackboardComp"));
 		BlackboardComp->SetValueAsObject(TargetKey, NewTarget);
 	}
 }

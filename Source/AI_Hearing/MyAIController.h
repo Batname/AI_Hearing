@@ -19,8 +19,10 @@ class AI_HEARING_API AMyAIController : public AAIController
 	GENERATED_BODY()
 
 protected:
+	UPROPERTY(EditAnywhere)
 	UBehaviorTreeComponent* BehaviorTreeComp;
 
+	UPROPERTY(EditAnywhere)
 	UBlackboardComponent* BlackboardComp;
 
 	UPROPERTY(EditDefaultsOnly)

@@ -45,8 +45,6 @@ void AMyAICharacter::OnHearNoise(APawn* PawnInstigator, const FVector& Location,
 
 	if (Con && PawnInstigator != this)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("AMyAICharacter::OnHearNoise AMyAIController"));
-
 		Con->SetSensedTarget(PawnInstigator);
 	}
 }
