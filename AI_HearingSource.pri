@@ -6829,5 +6829,7 @@ SOURCES += \
 	"$$AI_HearingRootPath/Source/AI_Hearing/AI_Hearing.cpp" \
 	"$$AI_HearingRootPath/Source/AI_Hearing/AI_HearingCharacter.cpp" \
 	"$$AI_HearingRootPath/Source/AI_Hearing/AI_HearingGameMode.cpp" \
+	"$$AI_HearingRootPath/Source/AI_Hearing/MyAICharacter.cpp" \
+	"$$AI_HearingRootPath/Source/AI_Hearing/MyAIController.cpp" \
  
 

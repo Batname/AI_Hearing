@@ -6840,6 +6840,8 @@ set(SOURCE_FILES
 	"${GAME_ROOT_PATH}/Source/AI_Hearing/AI_Hearing.cpp"
 	"${GAME_ROOT_PATH}/Source/AI_Hearing/AI_HearingCharacter.cpp"
 	"${GAME_ROOT_PATH}/Source/AI_Hearing/AI_HearingGameMode.cpp"
+	"${GAME_ROOT_PATH}/Source/AI_Hearing/MyAICharacter.cpp"
+	"${GAME_ROOT_PATH}/Source/AI_Hearing/MyAIController.cpp"
  )
 
 set(HEADER_FILES 
@@ -15686,6 +15688,8 @@ set(HEADER_FILES
 	"${GAME_ROOT_PATH}/Source/AI_Hearing/AI_Hearing.h"
 	"${GAME_ROOT_PATH}/Source/AI_Hearing/AI_HearingCharacter.h"
 	"${GAME_ROOT_PATH}/Source/AI_Hearing/AI_HearingGameMode.h"
+	"${GAME_ROOT_PATH}/Source/AI_Hearing/MyAICharacter.h"
+	"${GAME_ROOT_PATH}/Source/AI_Hearing/MyAIController.h"
  )
 
 set(CONFIG_FILES 

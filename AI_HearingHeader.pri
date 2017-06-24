@@ -8842,5 +8842,7 @@ HEADERS += \
 	"$$AI_HearingRootPath/Source/AI_Hearing/AI_Hearing.h" \
 	"$$AI_HearingRootPath/Source/AI_Hearing/AI_HearingCharacter.h" \
 	"$$AI_HearingRootPath/Source/AI_Hearing/AI_HearingGameMode.h" \
+	"$$AI_HearingRootPath/Source/AI_Hearing/MyAICharacter.h" \
+	"$$AI_HearingRootPath/Source/AI_Hearing/MyAIController.h" \
  
 
